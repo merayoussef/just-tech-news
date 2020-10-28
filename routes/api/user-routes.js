@@ -47,7 +47,7 @@ router.post('/', (req, res) => {
         });
 });
 
-/ PUT /api / users / 1
+// PUT /api/users/1
 router.put('/:id', (req, res) => {
     // expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
 
